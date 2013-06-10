@@ -61,46 +61,49 @@ namespace DrawerSample
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int action_search = 2130837504;
+			public const int action_other = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int drawer_shadow_dark = 2130837505;
+			public const int action_search = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int drawer_shadow_light = 2130837506;
+			public const int drawer_shadow_dark = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int earth = 2130837507;
+			public const int drawer_shadow_light = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int ic_drawer_dark = 2130837508;
+			public const int earth = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int ic_drawer_light = 2130837509;
+			public const int ic_drawer_dark = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int Icon = 2130837510;
+			public const int ic_drawer_light = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int jupiter = 2130837511;
+			public const int Icon = 2130837511;
 			
 			// aapt resource value: 0x7f020008
-			public const int mars = 2130837512;
+			public const int jupiter = 2130837512;
 			
 			// aapt resource value: 0x7f020009
-			public const int mercury = 2130837513;
+			public const int mars = 2130837513;
 			
 			// aapt resource value: 0x7f02000a
-			public const int neptune = 2130837514;
+			public const int mercury = 2130837514;
 			
 			// aapt resource value: 0x7f02000b
-			public const int saturn = 2130837515;
+			public const int neptune = 2130837515;
 			
 			// aapt resource value: 0x7f02000c
-			public const int uranus = 2130837516;
+			public const int saturn = 2130837516;
 			
 			// aapt resource value: 0x7f02000d
-			public const int venus = 2130837517;
+			public const int uranus = 2130837517;
+			
+			// aapt resource value: 0x7f02000e
+			public const int venus = 2130837518;
 			
 			static Drawable()
 			{
@@ -115,11 +118,17 @@ namespace DrawerSample
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f070004
-			public const int action_websearch = 2131165188;
+			// aapt resource value: 0x7f070008
+			public const int action_slidingpane = 2131165192;
+			
+			// aapt resource value: 0x7f070007
+			public const int action_websearch = 2131165191;
 			
 			// aapt resource value: 0x7f070002
 			public const int content_frame = 2131165186;
+			
+			// aapt resource value: 0x7f070006
+			public const int content_text = 2131165190;
 			
 			// aapt resource value: 0x7f070001
 			public const int drawer_layout = 2131165185;
@@ -129,6 +138,12 @@ namespace DrawerSample
 			
 			// aapt resource value: 0x7f070003
 			public const int left_drawer = 2131165187;
+			
+			// aapt resource value: 0x7f070005
+			public const int left_pane = 2131165189;
+			
+			// aapt resource value: 0x7f070004
+			public const int sliding_pane_layout = 2131165188;
 			
 			static Id()
 			{
@@ -151,6 +166,9 @@ namespace DrawerSample
 			
 			// aapt resource value: 0x7f030002
 			public const int Main = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int SlidingPaneLayout = 2130903043;
 			
 			static Layout()
 			{
@@ -190,11 +208,17 @@ namespace DrawerSample
 			// aapt resource value: 0x7f040001
 			public const int DrawerOpen = 2130968577;
 			
+			// aapt resource value: 0x7f040004
+			public const int action_slidingpane = 2130968580;
+			
 			// aapt resource value: 0x7f040003
 			public const int action_websearch = 2130968579;
 			
-			// aapt resource value: 0x7f040004
-			public const int app_not_available = 2130968580;
+			// aapt resource value: 0x7f040005
+			public const int app_not_available = 2130968581;
+			
+			// aapt resource value: 0x7f040006
+			public const int sliding_pane_layout_summary = 2130968582;
 			
 			static String()
 			{

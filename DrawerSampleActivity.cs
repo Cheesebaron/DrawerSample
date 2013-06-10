@@ -112,14 +112,23 @@ namespace DrawerSample
             switch (item.ItemId)
             {
                 case Resource.Id.action_websearch:
-                    var intent = new Intent(Intent.ActionWebSearch);
-                    intent.PutExtra(SearchManager.Query, ActionBar.Title);
+                    {
+                        var intent = new Intent(Intent.ActionWebSearch);
+                        intent.PutExtra(SearchManager.Query, ActionBar.Title);
 
-                    if ((intent.ResolveActivity(PackageManager)) != null)
+                        if ((intent.ResolveActivity(PackageManager)) != null)
+                            StartActivity(intent);
+                        else
+                            Toast.MakeText(this, Resource.String.app_not_available, ToastLength.Long).Show();
+                        return true;
+                    }
+                case Resource.Id.action_slidingpane:
+                    {
+                        var intent = new Intent(this, typeof(SlidingPaneLayoutActivity));
+                        intent.AddFlags(ActivityFlags.ClearTop);
                         StartActivity(intent);
-                    else
-                        Toast.MakeText(this, Resource.String.app_not_available, ToastLength.Long).Show();
-                    return true;
+                        return true;
+                    }
                 default:
                     return base.OnOptionsItemSelected(item);
             }

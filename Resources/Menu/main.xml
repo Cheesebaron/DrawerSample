@@ -19,4 +19,8 @@
         android:icon="@drawable/action_search"
         android:title="@string/action_websearch"
         android:showAsAction="ifRoom|withText" />
+  <item android:id="@+id/action_slidingpane"
+        android:icon="@drawable/action_other"
+        android:title="@string/action_slidingpane"
+        android:showAsAction="ifRoom|withText" />
 </menu>

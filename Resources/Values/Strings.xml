@@ -14,5 +14,7 @@
     <item>Neptune</item>
   </string-array>
   <string name="action_websearch">Web search</string>
+  <string name="action_slidingpane">Other</string>
   <string name="app_not_available">Sorry, there\'s no web browser available</string>
+  <string name="sliding_pane_layout_summary">This activity illustrates the use of sliding panes. The content pane may be slid to one side on narrow devices to reveal the left pane used to select content. Sliding panes can be used to fit a UI intended for wider screens in a smaller space. Tapping the Action Bar\'s Up button at the left side of the bar will navigate up in the hierarchy, represented by the left pane. If you rotate the device to landscape mode, on most devices you will see that both panes fit together side by side with no sliding necessary.</string>
 </resources>
