@@ -9,4 +9,4 @@ The SlidingPane Layout sample is ported from [this sample repository](https://gi
 
 License
 -------
-Both samples are licenced under the Apache 2.0 licence.
+Both samples are licensed under the Apache 2.0 license.
