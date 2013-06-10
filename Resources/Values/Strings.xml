@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ApplicationName">DrawerSample</string>
+  <string name="DrawerOpen">Open</string>
+  <string name="DrawerClose">Close</string>
+  <string-array name="PlanetsArray">
+    <item>Mercury</item>
+    <item>Venus</item>
+    <item>Earth</item>
+    <item>Mars</item>
+    <item>Jupiter</item>
+    <item>Saturn</item>
+    <item>Uranus</item>
+    <item>Neptune</item>
+  </string-array>
+  <string name="action_websearch">Web search</string>
+  <string name="app_not_available">Sorry, there\'s no web browser available</string>
+</resources>
