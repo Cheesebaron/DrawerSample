@@ -33,14 +33,14 @@ namespace DrawerSample
             base.OnDrawerClosed(drawerView);
         }
 
-        public new void OnDrawerOpened(View drawerView)
+        public override void OnDrawerOpened(View drawerView)
         {
             if (null != DrawerOpened)
                 DrawerOpened(this, new ActionBarDrawerEventArgs { DrawerView = drawerView });
             base.OnDrawerOpened(drawerView);
         }
 
-        public new void OnDrawerSlide(View drawerView, float slideOffset)
+        public override void OnDrawerSlide(View drawerView, float slideOffset)
         {
             if (null != DrawerSlide)
                 DrawerSlide(this, new ActionBarDrawerEventArgs
@@ -51,7 +51,7 @@ namespace DrawerSample
             base.OnDrawerSlide(drawerView, slideOffset);
         }
 
-        public new void OnDrawerStateChanged(int newState)
+        public override void OnDrawerStateChanged(int newState)
         {
             if (null != DrawerStateChanged)
                 DrawerStateChanged(this, new ActionBarDrawerEventArgs
