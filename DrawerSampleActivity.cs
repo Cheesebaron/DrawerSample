@@ -41,16 +41,21 @@ namespace DrawerSample
             ActionBar.SetDisplayHomeAsUpEnabled(true);
             ActionBar.SetHomeButtonEnabled(true);
 
+            //DrawerToggle is the animation that happens with the indicator next to the
+            //ActionBar icon. You can choose not to use this.
             _drawerToggle = new MyActionBarDrawerToggle(this, _drawer,
                                                       Resource.Drawable.ic_drawer_light,
                                                       Resource.String.DrawerOpen,
                                                       Resource.String.DrawerClose);
+
+            //You can alternatively use _drawer.DrawerClosed here
             _drawerToggle.DrawerClosed += delegate
             {
                 ActionBar.Title = _title;
                 InvalidateOptionsMenu();
             };
 
+            //You can alternatively use _drawer.DrawerOpened here
             _drawerToggle.DrawerOpened += delegate
             {
                 ActionBar.Title = _drawerTitle;
