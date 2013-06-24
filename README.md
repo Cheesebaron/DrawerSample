@@ -7,6 +7,6 @@ The [Drawer Navigation sample](http://developer.android.com/training/implementin
 
 The SlidingPane Layout sample is ported from [this sample repository](https://github.com/mastro/android-support-library-archive/blob/master/samples/Support4Demos/src/com/example/android/supportv4/widget/SlidingPaneLayoutActivity.java).
 
-Licence
+License
 -------
-Both samples are licenced under the Apache 2.0 licence.
+Both samples are licensed under the Apache 2.0 license.
