@@ -46,13 +46,14 @@ namespace DrawerSample
             _list.ItemClick += (sender, args) =>
                 {
                     _content.Text = Shakespeare.Dialogue[args.Position];
-                    ActionBar.Title = Shakespeare.Titles[args.Position];
+                    _title = Shakespeare.Titles[args.Position];
                     _slidingLayout.SmoothSlideClosed();
                 };
 
             ActionBar.SetDisplayHomeAsUpEnabled(true);
             ActionBar.SetHomeButtonEnabled(true);
-            _title = _drawerTitle = Title;
+            _title = Shakespeare.Titles[0];
+            _drawerTitle = "Pick a title";
 
             _slidingLayout.ViewTreeObserver.GlobalLayout += FirstLayoutListener;
         }
