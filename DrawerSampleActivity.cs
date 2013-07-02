@@ -81,7 +81,7 @@ namespace DrawerSample
 
             _drawerList.SetItemChecked(position, true);
             ActionBar.Title = _title = _planetTitles[position];
-            _drawer.CloseDrawer(Resource.Id.left_drawer);
+            _drawer.CloseDrawer(FindViewById<ListView>(Resource.Id.left_drawer));
         }
 
         protected override void OnPostCreate(Bundle savedInstanceState)
