@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="dk.ostebaronen.drawersample" android:versionCode="1" android:versionName="1.0">
-	<uses-sdk android:targetSdkVersion="14" />
+	<uses-sdk android:targetSdkVersion="14" android:minSdkVersion="8" />
 	<application android:label="Drawer Sample"></application>
 </manifest>
